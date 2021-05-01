@@ -36,3 +36,8 @@ html, body {
 .line{
   text-decoration: underline;
 }
+
+.no-space{
+  padding-bottom: 0%;
+  margin-bottom: 0%;
+}
