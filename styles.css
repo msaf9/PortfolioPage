@@ -6,6 +6,13 @@ html, body {
   font-family: 'Recursive', sans-serif;
 }
 
+@media only screen and (max-width: 770px) {
+  html, body {
+    background-color: lightblue;
+    width: 100%;
+  }
+}
+
 .format-1 {
   float: right;
   width: 50%;
@@ -14,9 +21,25 @@ html, body {
   /* background-color: black; */
 }
 
+@media only screen and (max-width: 770px) {
+  .format-1 {
+    float: none;
+    padding: 10px;
+    width: 100%;
+    height: auto;
+  }
+}
+
 .format-2 {
   /* margin: 30px; */
   padding: 20px;
+}
+
+@media only screen and (max-width: 770px) {
+  .format-2 {
+    padding: 2px;
+    width: 100%;
+  }
 }
 
 .topnav {
@@ -31,6 +54,18 @@ html, body {
   padding-left: 0%;
   text-decoration: none;
   font-size: 17px;
+}
+
+@media only screen and (max-width: 770px) {
+  .topnav a {
+    float: left;
+    /* color: #f2f2f2; */
+    text-align: left;
+    padding: 10px 9.3px 6px;
+    padding-left: 0%;
+    text-decoration: none;
+    font-size: 17px;
+  }
 }
 
 .line {
