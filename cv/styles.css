@@ -1,0 +1,136 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+    height: 100%;
+}
+
+.example::-webkit-scrollbar {
+    display: none;
+}
+
+.box-1 {
+    padding: 1em;
+    height: 100%;
+}
+
+.box {
+    border-radius: 15px 50px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    padding: 20px;
+    border-collapse: separate;
+    border-spacing: 15px 50px;
+    background-color: rgb(203, 250, 203);
+    height: auto;
+}
+
+.header1 {
+    text-align: center;
+    margin: 5px;
+}
+
+.header2 {
+    text-align: center;
+    padding-bottom: 5px;
+    margin: 0%;
+}
+
+.header3,
+.skills {
+    text-align: center;
+}
+
+.roles {
+    text-align: center;
+}
+
+.roles>* {
+    display: inline-block;
+    vertical-align: left;
+    /* background-color: rgb(0, 88, 0); */
+}
+
+.header3>*,
+.skills>* {
+    display: inline-block;
+    vertical-align: middle;
+    /* background-color: rgb(0, 88, 0); */
+}
+
+.cell-number,
+.email,
+.github,
+.ui-design {
+    width: 400px;
+    height: 20px;
+}
+
+.line {
+    border: 1px solid black;
+}
+
+.sub-header1,
+.sub-header2 {
+    margin: 0%;
+}
+
+p:first-of-type {
+    margin-top: 0.5em;
+}
+
+.ui-design,
+.services-development,
+.testing,
+.product-management,
+.collaboration {
+    width: 250px;
+    height: 20px;
+}
+
+.full-stack-developer {
+    width: 350px;
+    height: 20px;
+
+}
+
+.geek {
+    width: 250px;
+    height: 20px;
+}
+
+.wipro {
+    margin: 0.5em;
+}
+
+.roles1 {
+    text-align: left;
+    margin-left: 120px;
+}
+
+.roles11 {
+    text-align: left;
+    margin-left: 120px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.research {
+    text-align: left;
+    margin-left: 80px;
+}
+
+.cs {
+    text-align: left;
+}
+
+.cs>* {
+    display: inline-block;
+    vertical-align: left;
+    /* background-color: rgb(0, 88, 0); */
+}
+
+/* .image {
+    display: inline-block;
+} */
