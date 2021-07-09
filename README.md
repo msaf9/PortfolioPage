@@ -1,4 +1,4 @@
-### PortfolioPage
+### Portfolio 
 ---
 [![Jekyll site CI](https://github.com/msaf9/portfolio/actions/workflows/jekyll.yml/badge.svg?branch=master)](https://github.com/msaf9/portfolio/actions/workflows/jekyll.yml)
 
