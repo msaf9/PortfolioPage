@@ -20,3 +20,7 @@ Portfolio website.
 > 
 > Heroku URL to access: https://portfolio-msaf.herokuapp.com/ 
 
+### License & copyright
+© Sahil Afrid Farookhi
+
+Lincensed under the [MIT License](LICENSE)
