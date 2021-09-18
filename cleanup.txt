@@ -1,6 +1,8 @@
-JS Content
+* This cleaup.txt file is for code refactoring notes *
+
+* JS Content *
 //In a snap
-    /* window.scrollTo(0, 0); */
+/* window.scrollTo(0, 0); */
 
 // With some animation
-    /* $('html, body').animate({ scrollTop: 0 }, 'slow'); */
+/* $('html, body').animate({ scrollTop: 0 }, 'slow'); */
