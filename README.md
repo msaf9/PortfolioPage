@@ -1,6 +1,7 @@
 # Portfolio 
 
 [![Jekyll site CI](https://github.com/msaf9/portfolio/actions/workflows/jekyll.yml/badge.svg?branch=master)](https://github.com/msaf9/portfolio/actions/workflows/jekyll.yml)
+[![CodeQL](https://github.com/msaf9/portfolio/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/msaf9/portfolio/actions/workflows/codeql-analysis.yml)
 
 ### About
 Portfolio website.
