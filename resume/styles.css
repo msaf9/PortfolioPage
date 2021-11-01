@@ -1,5 +1,4 @@
-html,
-body {
+html, body {
     margin: 0;
     padding: 0;
     /* overflow: hidden; */
@@ -11,11 +10,49 @@ body {
 }
 
 .box-1 {
-    padding: 1em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    /* float: center;
+    width: 50%;
     height: 100%;
+    padding: 20px; */
+    /* background-color: black; */
 }
 
-.box {
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: #333; */
+}
+
+li {
+    margin: 0%;
+    padding: 0%;
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+/* .box-1 {
+    padding: 1em;
+    height: 100%;
+} */
+
+/* .box {
     border-radius: 15px 50px;
     border-style: solid;
     border-color: rgb(0, 0, 0);
@@ -24,10 +61,10 @@ body {
     border-spacing: 15px 50px;
     background-color: rgb(203, 250, 203);
     height: auto;
-}
+} */
 
 .header1 {
-    text-align: center;
+    text-align: left;
     margin: 5px;
 }
 
@@ -37,8 +74,7 @@ body {
     margin: 0%;
 }
 
-.header3,
-.skills {
+.header3, .skills {
     text-align: center;
 }
 
@@ -52,17 +88,13 @@ body {
     /* background-color: rgb(0, 88, 0); */
 }
 
-.header3>*,
-.skills>* {
+.header3>*, .skills>* {
     display: inline-block;
     vertical-align: middle;
     /* background-color: rgb(0, 88, 0); */
 }
 
-.cell-number,
-.email,
-.github,
-.ui-design {
+.cell-number, .email, .github, .ui-design {
     width: 400px;
     height: 20px;
 }
@@ -71,8 +103,7 @@ body {
     border: 1px solid black;
 }
 
-.sub-header1,
-.sub-header2 {
+.sub-header1, .sub-header2 {
     margin: 0%;
 }
 
@@ -80,11 +111,7 @@ p:first-of-type {
     margin-top: 0.5em;
 }
 
-.ui-design,
-.services-development,
-.testing,
-.product-management,
-.collaboration {
+.ui-design, .services-development, .testing, .product-management, .collaboration {
     width: 250px;
     height: 20px;
 }
@@ -92,7 +119,6 @@ p:first-of-type {
 .full-stack-developer {
     width: 350px;
     height: 20px;
-
 }
 
 .geek {
