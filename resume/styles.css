@@ -9,6 +9,16 @@ html, body {
     display: none;
 }
 
+nav {
+    padding: 0%;
+    margin: 0%;
+}
+
+hr {
+    padding: 0%;
+    margin: 0%;
+}
+
 .box-1 {
     display: block;
     margin-left: auto;
@@ -37,15 +47,15 @@ li {
 
 li a {
     display: block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-li a:hover:not(.active) {
+/* li a:hover:not(.active) {
     background-color: #111;
-}
+} */
 
 /* .box-1 {
     padding: 1em;
@@ -66,6 +76,7 @@ li a:hover:not(.active) {
 .header1 {
     text-align: left;
     margin: 5px;
+    padding: 0%;
 }
 
 .header2 {
