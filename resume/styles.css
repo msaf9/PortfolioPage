@@ -166,6 +166,7 @@ p:first-of-type {
 
 .cs {
     text-align: left;
+    padding-bottom: 2%;
 }
 
 .cs>* {
