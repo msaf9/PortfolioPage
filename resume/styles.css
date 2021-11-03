@@ -53,9 +53,10 @@ li a {
     text-decoration: none;
 }
 
-/* li a:hover:not(.active) {
-    background-color: #111;
-} */
+li a:hover:not(.active) {
+    /* color: brown; */
+    text-decoration: underline;
+}
 
 /* .box-1 {
     padding: 1em;
@@ -111,11 +112,12 @@ li a {
 }
 
 .line {
-    border: 1px solid black;
+    border: 1px thin brown;
 }
 
 .sub-header1, .sub-header2 {
-    margin: 0%;
+    margin: 10px 0px 0px 0px;
+    padding: 0%;
 }
 
 p:first-of-type {
@@ -130,6 +132,10 @@ p:first-of-type {
 .full-stack-developer {
     width: 350px;
     height: 20px;
+}
+
+.summary {
+    color: blue;
 }
 
 .geek {
