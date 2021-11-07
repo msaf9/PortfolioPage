@@ -1,0 +1,220 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+    height: 100%;
+}
+
+.example::-webkit-scrollbar {
+    display: none;
+}
+
+nav {
+    padding: 0%;
+    margin: 0%;
+}
+
+hr {
+    padding: 0%;
+    margin: 0%;
+}
+
+.box-1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    /* float: center;
+    width: 50%;
+    height: 100%;
+    padding: 20px; */
+    /* background-color: black; */
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: #333; */
+}
+
+li {
+    margin: 0%;
+    padding: 0%;
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    /* color: brown; */
+    text-decoration: underline;
+}
+
+/* .box-1 {
+    padding: 1em;
+    height: 100%;
+} */
+
+/* .box {
+    border-radius: 15px 50px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    padding: 20px;
+    border-collapse: separate;
+    border-spacing: 15px 50px;
+    background-color: rgb(203, 250, 203);
+    height: auto;
+} */
+
+.header1 {
+    text-align: left;
+    margin: 5px;
+    padding: 0%;
+}
+
+.header2 {
+    text-align: center;
+    padding-bottom: 5px;
+    margin: 0%;
+}
+
+.header3, .skills {
+    text-align: center;
+}
+
+.roles {
+    text-align: left;
+}
+
+.roles>* {
+    display: inline-block;
+    vertical-align: right;
+    /* background-color: rgb(0, 88, 0); */
+}
+
+.header3>*, .skills>* {
+    display: inline-block;
+    vertical-align: middle;
+    /* background-color: rgb(0, 88, 0); */
+}
+
+.cell-number, .email, .github, .ui-design {
+    width: 400px;
+    height: 20px;
+}
+
+.line {
+    border: 1px thin brown;
+}
+
+.sub-header1, .sub-header2 {
+    margin: 10px 0px 0px 0px;
+    padding: 0%;
+}
+
+p:first-of-type {
+    margin-top: 0.5em;
+}
+
+.ui-design, .services-development, .testing, .product-management, .collaboration {
+    width: 250px;
+    height: 20px;
+}
+
+.full-stack-developer {
+    width: 350px;
+    height: 20px;
+}
+
+.summary {
+    color: blue;
+}
+
+.geek {
+    width: 250px;
+    height: 20px;
+}
+
+.wipro {
+    margin: 0.5em;
+}
+
+.roles1 {
+    text-align: left;
+    margin-left: 120px;
+}
+
+.roles11 {
+    text-align: left;
+    margin-left: 120px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.research {
+    text-align: left;
+    margin-left: 80px;
+}
+
+.cs {
+    text-align: left;
+    padding-bottom: 2%;
+}
+
+.cs>* {
+    display: inline-block;
+    vertical-align: left;
+    /* background-color: rgb(0, 88, 0); */
+}
+
+/* .image {
+    display: inline-block;
+} */
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    /* font-size: 30px; */
+    /* text-align: right; */
+}
+
+.flex-item-left {
+    /* background-color: #f1f1f1; */
+    /* padding: 10px; */
+    flex: 1;
+}
+
+.flex-item-right {
+    /* background-color: dodgerblue; */
+    /* padding: 10px; */
+    flex: 1;
+}
+
+.flex-item-left1 {
+    /* background-color: #f1f1f1; */
+    /* padding: 1%; */
+    flex: 1;
+}
+
+.flex-item-right1 {
+    /* background-color: dodgerblue; */
+    padding: 0.35em 0em 0em 0em;
+    flex: 1;
+}
+
+.float-right {
+    float: right;
+}
+
+.roles111 {
+    text-align: left;
+    margin-left: 60px;
+}
