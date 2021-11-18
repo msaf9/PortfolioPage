@@ -18,7 +18,6 @@ html, body {
   width: 50%;
   height: 100%;
   padding: 20px;
-  /* background-color: black; */
 }
 
 @media only screen and (max-width: 1024px) {
@@ -31,7 +30,6 @@ html, body {
 }
 
 .format-2 {
-  /* margin: 30px; */
   padding: 20px;
 }
 
@@ -48,7 +46,6 @@ html, body {
 
 .topnav a {
   float: left;
-  /* color: #f2f2f2; */
   text-align: left;
   padding: 10px 20px 25px;
   padding-left: 0%;
@@ -59,7 +56,6 @@ html, body {
 @media only screen and (max-width: 1024px) {
   .topnav a {
     float: left;
-    /* color: #f2f2f2; */
     text-align: left;
     padding: 10px 9.3px 6px;
     padding-left: 0%;
@@ -93,6 +89,7 @@ html, body {
     padding: 0%;
     margin: 0%;
   }
+
   .format-1>.format-2>ul>li:nth-child(4) {
     font-size: 15px;
     padding-top: 25px;
