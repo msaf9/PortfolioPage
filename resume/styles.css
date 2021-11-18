@@ -16,9 +16,10 @@ nav {
 hr {
     padding: 0%;
     margin: 0%;
+    border: 1px thin brown;
 }
 
-.box-1 {
+.box {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -62,8 +63,9 @@ li a:hover:not(.active) {
     margin: 0%;
 }
 
-.header3, .skills {
-    text-align: center;
+.role {
+    text-align: left;
+    margin-left: 60px;
 }
 
 .roles {
@@ -80,15 +82,6 @@ li a:hover:not(.active) {
     vertical-align: middle;
 }
 
-.cell-number, .email, .github, .ui-design {
-    width: 400px;
-    height: 20px;
-}
-
-.line {
-    border: 1px thin brown;
-}
-
 .sub-header1, .sub-header2 {
     margin: 10px 0px 0px 0px;
     padding: 0%;
@@ -98,50 +91,22 @@ p:first-of-type {
     margin-top: 0.5em;
 }
 
-.ui-design, .services-development, .testing, .product-management, .collaboration {
+/* .skills {
+    text-align: center;
+}
+
+.ui-design, .services-development, .testing, .product-management, .collaboration, .devops {
     width: 250px;
     height: 20px;
-}
+} */
 
 .full-stack-developer {
     width: 350px;
     height: 20px;
 }
 
-.geek {
-    width: 250px;
-    height: 20px;
-}
-
 .wipro {
     margin: 0.5em;
-}
-
-.roles1 {
-    text-align: left;
-    margin-left: 120px;
-}
-
-.roles11 {
-    text-align: left;
-    margin-left: 120px;
-    text-align: justify;
-    text-justify: inter-word;
-}
-
-.research {
-    text-align: left;
-    margin-left: 80px;
-}
-
-.cs {
-    text-align: left;
-    padding-bottom: 2%;
-}
-
-.cs>* {
-    display: inline-block;
-    vertical-align: left;
 }
 
 .flex-container {
@@ -168,9 +133,4 @@ p:first-of-type {
 
 .float-right {
     float: right;
-}
-
-.roles111 {
-    text-align: left;
-    margin-left: 60px;
 }
