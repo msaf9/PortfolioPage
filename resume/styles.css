@@ -100,12 +100,12 @@ p:first-of-type {
     height: 20px;
 } */
 
-.full-stack-developer {
+.area {
     width: 350px;
     height: 20px;
 }
 
-.wipro {
+.margin-space {
     margin: 0.5em;
 }
 
@@ -114,19 +114,11 @@ p:first-of-type {
     flex-wrap: wrap;
 }
 
-.flex-item-left {
+.flex-item {
     flex: 1;
 }
 
-.flex-item-right {
-    flex: 1;
-}
-
-.flex-item-left1 {
-    flex: 1;
-}
-
-.flex-item-right1 {
+.flex-item-1 {
     padding: 0.35em 0em 0em 0em;
     flex: 1;
 }
