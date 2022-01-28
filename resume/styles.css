@@ -57,32 +57,21 @@ li a:hover:not(.active) {
     padding: 0%;
 }
 
-.header2 {
-    text-align: center;
-    padding-bottom: 5px;
-    margin: 0%;
-}
-
-.role {
+.role-description {
     text-align: left;
     margin-left: 60px;
 }
 
-.roles {
+.role {
     text-align: left;
 }
 
-.roles>* {
+.role>* {
     display: inline-block;
     vertical-align: right;
 }
 
-.header3>*, .skills>* {
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.sub-header1, .sub-header2 {
+.sub-header1 {
     margin: 10px 0px 0px 0px;
     padding: 0%;
 }
@@ -91,16 +80,7 @@ p:first-of-type {
     margin-top: 0.5em;
 }
 
-/* .skills {
-    text-align: center;
-}
-
-.ui-design, .services-development, .testing, .product-management, .collaboration, .devops {
-    width: 250px;
-    height: 20px;
-} */
-
-.area {
+.role-name {
     width: 350px;
     height: 20px;
 }
