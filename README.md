@@ -30,6 +30,9 @@ Portfolio website.
 ## Project status
 > **Continuous**
 
+### Versions
+1.0.0 (**Current stable version**)
+
 ## Installation
 ### Get repository
 ```git
