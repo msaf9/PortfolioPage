@@ -29,7 +29,7 @@ Portfolio website.
 
 
 ## Project status
-> **Continuous**
+> **Completed**
 
 ### Versions
 1.0.0 (**Current stable version**)
