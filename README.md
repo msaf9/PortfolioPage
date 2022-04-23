@@ -51,4 +51,4 @@ cd portfolio
 Lincensed under the [MIT License](LICENSE).
 
 ### Copyright
-© Sahil Afrid Farookhi
+© Sahil Afrid Farookhi.
