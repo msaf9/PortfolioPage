@@ -38,8 +38,8 @@ Portfolio website.
 ## Installation
 ### Get repository
 ```git
-git clone https://github.com/msaf9/portfolio.git
-cd portfolio
+git clone https://github.com/msaf9/Portfolio.git
+cd Portfolio
 ```
 
 ### URLs
