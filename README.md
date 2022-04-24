@@ -38,7 +38,7 @@ Portfolio website.
 ## Installation
 ### Get repository
 ```git
-git https://github.com/msaf9/portfolio.git
+git clone https://github.com/msaf9/portfolio.git
 cd portfolio
 ```
 
