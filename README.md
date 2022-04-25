@@ -43,9 +43,9 @@ cd Portfolio
 ```
 
 ### URLs
-> GitHub Pages URL to access: https://msaf9.github.io/portfolio/
+> GitHub Pages URL to access: https://msaf9.github.io/Portfolio/
 > 
-> Heroku URL to access: https://portfolio-msaf.herokuapp.com/ 
+> Heroku URL to access: https://msaf-portfolio.herokuapp.com/
 
 ## License
 Lincensed under the [MIT License](LICENSE).
