@@ -38,17 +38,17 @@ Portfolio website.
 ## Installation
 ### Get repository
 ```git
-git https://github.com/msaf9/portfolio.git
-cd portfolio
+git clone https://github.com/msaf9/Portfolio.git
+cd Portfolio
 ```
 
 ### URLs
-> GitHub Pages URL to access: https://msaf9.github.io/portfolio/
+> GitHub Pages URL to access: https://msaf9.github.io/Portfolio/
 > 
-> Heroku URL to access: https://portfolio-msaf.herokuapp.com/ 
+> Heroku URL to access: https://msaf-portfolio.herokuapp.com/
 
 ## License
 Lincensed under the [MIT License](LICENSE).
 
 ### Copyright
-© Sahil Afrid Farookhi
+© Sahil Afrid Farookhi.
