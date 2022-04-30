@@ -32,8 +32,9 @@ Portfolio website.
 > **Completed**
 
 ### Versions
-- 1.0.0 (**Current stable version**)
+- 1.0.0 (**First version**)
 - 1.0.1 (**With mobile view issue fixes**)
+- 1.0.2 (**Current stable version with index.html navigation fixes**)
 
 ## Installation
 ### Get repository
