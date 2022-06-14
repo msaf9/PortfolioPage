@@ -7,11 +7,18 @@
 Portfolio website.
 
 ## Table of contents
-1. Introduction
-2. Technologies
-3. Project status
-4. Installation
-5. License
+- [Portfolio](#portfolio)
+  - [Table of contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [Technologies](#technologies)
+    - [Deployment tools](#deployment-tools)
+  - [Project status](#project-status)
+    - [Versions](#versions)
+  - [Installation](#installation)
+    - [Get repository](#get-repository)
+    - [URLs](#urls)
+  - [License](#license)
+    - [Copyright](#copyright)
 
 ## Introduction
 Portfolio website.
