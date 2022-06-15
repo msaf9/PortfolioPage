@@ -6,9 +6,7 @@
 
 Portfolio website.
 
-## Table of contents
 - [Portfolio](#portfolio)
-  - [Table of contents](#table-of-contents)
   - [Introduction](#introduction)
   - [Technologies](#technologies)
     - [Deployment tools](#deployment-tools)
