@@ -1,108 +1,109 @@
-html, body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
 
 .example::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
 nav {
-    padding: 0%;
-    margin: 0%;
+  padding: 0%;
+  margin: 0%;
 }
 
 hr {
-    padding: 0%;
-    margin: 0%;
-    border: 1px thin brown;
+  padding: 0%;
+  margin: 0%;
+  border: 1px thin brown;
 }
 
 .box {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 75%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
 }
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
 li {
-    margin: 0%;
-    padding: 0%;
-    float: left;
+  margin: 0%;
+  padding: 0%;
+  float: left;
 }
 
 li a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 li a:hover:not(.active) {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .header1 {
-    text-align: left;
-    margin: 5px;
-    padding: 0%;
+  text-align: left;
+  margin: 5px;
+  padding: 0%;
 }
 
 .role-description {
-    text-align: left;
-    margin-left: 60px;
+  text-align: left;
+  margin-left: 60px;
 }
 
 .role {
-    text-align: left;
+  text-align: left;
 }
 
-.role>* {
-    display: inline-block;
-    vertical-align: right;
+.role > * {
+  display: inline-block;
+  vertical-align: right;
 }
 
 .sub-header1 {
-    margin: 10px 0px 0px 0px;
-    padding: 0%;
+  margin: 10px 0px 0px 0px;
+  padding: 0%;
 }
 
 p:first-of-type {
-    margin-top: 0.5em;
+  margin-top: 0.5em;
 }
 
 .role-name {
-    width: 350px;
-    height: 20px;
+  width: 350px;
+  height: 20px;
 }
 
 .margin-space {
-    margin: 0.5em;
+  margin: 0.5em;
 }
 
 .flex-container {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .flex-item {
-    flex: 1;
+  flex: 1;
 }
 
 .flex-item-1 {
-    padding: 0.35em 0em 0em 0em;
-    flex: 1;
+  padding: 0.35em 0em 0em 0em;
+  flex: 1;
 }
 
 .float-right {
-    float: right;
+  float: right;
 }

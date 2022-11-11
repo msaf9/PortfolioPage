@@ -1,65 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
     <title>Bookshelf — Sahil Afrid Farookhi</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Recursive&display=swap" rel="stylesheet" />
-    <link rel="icon" type="image/png" sizes="16x16" href="resource/favicon-16.png" />
-    <script type="text/javascript" src="main.js"></script>
-</head>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous" />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"></script>
+    <link
+      rel="stylesheet"
+      href="styles.css" />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Recursive&display=swap"
+      rel="stylesheet" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="resource/favicon-16.png" />
+    <script
+      type="text/javascript"
+      src="main.js"></script>
+  </head>
 
-<body>
+  <body>
     <div class="format-1">
-        <div class="format-2">
-            <div class="topnav">
+      <div class="format-2">
+        <div class="topnav">
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <a
+              class="navbar-brand text-primary"
+              href="./"
+              >Home</a
+            >
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
 
-                <nav class="navbar navbar-expand-lg navbar-light">
-                    <a class="navbar-brand text-primary" href="./">Home</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse"
-                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ml-auto">
-                            <!-- <li class="nav-item">
+            <div
+              class="collapse navbar-collapse"
+              id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <!-- <li class="nav-item">
                           <a class="nav-link" id="pad" href="index.html">Home</a>
                         </li> -->
-                            <li class="nav-item">
-                                <a class="nav-link" href="portfolio.html">Portfolio <span
-                                        class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="writings.html">Writings</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="hobbies.html">Hobbies</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" href="bookshelf.html">Bookshelf</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="portfolio.html"
+                    >Portfolio <span class="sr-only">(current)</span></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="writings.html"
+                    >Writings</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="hobbies.html"
+                    >Hobbies</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    href="bookshelf.html"
+                    >Bookshelf</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </nav>
 
-
-                <!-- <nav class="navbar navbar-expand-lg navbar-light">
+          <!-- <nav class="navbar navbar-expand-lg navbar-light">
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
@@ -81,124 +124,159 @@
                         </ul>
                     </div>
                 </nav> -->
-            </div>
-            <p>
-                Books are one of the best ways to learn and experience. Reading
-                different kinds of books helped me grow and spring. I have taken this
-                seriously since 2019. Here is the list of books that I have read and
-                planned to read in the future; you might like to dive into that. To
-                share and get recommendations, I'm keeping a list of my books.
-            </p>
-            <p>
-                Please feel free to suggest your tinge over an
-                <a target=" _blank" href="mailto:msafarookhi@gmail.com">email</a> to
-                me.
-            </p>
-            <p><b>My book list 📕 — 2019 - 2022 (I've read)*</b></p>
-            <ul>
-                <li><span class="line">The Success code</span> by Joe Rubino</li>
-                <li>
-                    <span class="line">Debt is Slavery: and 9 Other Things I Wish My Dad Had Taught Me
-                        About Money</span>
-                    by Michael Mihalik
-                </li>
-                <li><span class="line">How to be Alone</span> by Janya Davis</li>
-                <li>
-                    <span class="line">Wings of Fire</span> by A. P. J. Abdul Kalam
-                </li>
-                <li>
-                    <span class="line">The Tears of My Soul</span> by Hyun Hee Kim
-                </li>
-                <li>
-                    <span class="line">World Mythology in Bite-Sized Chunks</span> by
-                    Mark Daniels
-                </li>
-                <li>
-                    <span class="line">A Children's Dream of a Star</span> by Charles
-                    Dickens
-                </li>
-                <li><span class="line">Animal Farm</span> by George Orwell</li>
-                <li>
-                    <span class="line">The Subtle Art of Not Giving a F😶ck</span> by
-                    Mark Manson
-                </li>
-                <li>
-                    <span class="line">Master Your Emotions: A Practical Guide to Overcome Negativity and Better Manage
-                        Your Feelings (Mastery Series Book 1)</span> by Thibaut Meurisse
-                </li>
-            </ul>
-            <p><b>Reading now 📖</b></p>
-            <ul>
-                <li>
-                    <span class="line">Life Is Short And So Is This Book: Brief Thoughts On Making The Most Of Your
-                        Life</span>
-                    by Peter Atkins
-                </li>
-            </ul>
-            <p><b>Paused ⏸</b></p>
-            <ul>
-                <li>
-                    <span class="line">THINK STRAIGHT: Change Your Thoughts, Change Your Life</span>
-                    by Darius Foroux
-                </li>
-                <li>
-                    <span class="line">80/20 Your Life! How to Get More Done with Less Effort and Change Your Life in
-                        the Process!</span> by Damon Zahariades
-                </li>
-                <li>
-                    <span class="line">The Design of Everyday Things</span> by Donald
-                    Norman
-                </li>
-            </ul>
-            <p><b>To go 📚**</b></p>
-            <ul>
-                <li>
-                    <span class="line">55 Questions To Ask Yourself</span>
-                    by Manoj Chenthamarakshan
-                </li>
-
-                <li><span class="line">Real Life</span> by Brandon Taylor</li>
-
-                <li>
-                    <span class="line">The Monk Who Sold His Ferrari: The 7 Stages of
-                        Self-Awakening</span>
-                    by Robin Sharma
-                </li>
-
-                <li>
-                    <span class="line">Do It Today: Overcome Procrastination, Improve Productivity, and
-                        Achieve More</span>
-                    by Darius Foroux
-                </li>
-                <li>
-                    <span class="line">Declutter Your Mind: How to Stop Worrying, Relieve Anxiety, and
-                        Eliminate Negative Thinking</span>
-                    by S.J. Scott
-                </li>
-                <li>
-                    <span class="line">The Adventures of Huckleberry Finn</span> Novel
-                    by Mark Twain
-                </li>
-                <li><span class="line">1984</span> by George Orwell</li>
-                <li>
-                    <span class="line">Scientology: The Fundamentals of Thought</span>
-                    by L. Ron Hubbard
-                </li>
-            </ul>
-            <p class="no-space font-size">* The list is in the order I've read.</p>
-            <p class="font-size">
-                ** I like this way of list order (lazy enough to sort in alphabetical
-                order).
-            </p>
-
-            <hr style="height: 1px; border: none; color: #333; background-color: #333" />
-
-            <button type="button" class="btn btn-link"
-                style="float: right; padding: 0% 0% 1% 0%; margin: 0%; text-decoration: none;"
-                onclick="TopScrollFunction()">Navigate to the
-                top &uarr;</button>
         </div>
-    </div>
-</body>
+        <p>
+          Books are one of the best ways to learn and experience. Reading
+          different kinds of books helped me grow and spring. I have taken this
+          seriously since 2019. Here is the list of books that I have read and
+          planned to read in the future; you might like to dive into that. To
+          share and get recommendations, I'm keeping a list of my books.
+        </p>
+        <p>
+          Please feel free to suggest your tinge over an
+          <a
+            target=" _blank"
+            href="mailto:msafarookhi@gmail.com"
+            >email</a
+          >
+          to me.
+        </p>
+        <p><b>My book list 📕 — 2019 - 2022 (I've read)*</b></p>
+        <ul>
+          <li><span class="line">The Success code</span> by Joe Rubino</li>
+          <li>
+            <span class="line"
+              >Debt is Slavery: and 9 Other Things I Wish My Dad Had Taught Me
+              About Money</span
+            >
+            by Michael Mihalik
+          </li>
+          <li><span class="line">How to be Alone</span> by Janya Davis</li>
+          <li>
+            <span class="line">Wings of Fire</span> by A. P. J. Abdul Kalam
+          </li>
+          <li>
+            <span class="line">The Tears of My Soul</span> by Hyun Hee Kim
+          </li>
+          <li>
+            <span class="line">World Mythology in Bite-Sized Chunks</span> by
+            Mark Daniels
+          </li>
+          <li>
+            <span class="line">A Children's Dream of a Star</span> by Charles
+            Dickens
+          </li>
+          <li><span class="line">Animal Farm</span> by George Orwell</li>
+          <li>
+            <span class="line">The Subtle Art of Not Giving a F😶ck</span> by
+            Mark Manson
+          </li>
+          <li>
+            <span class="line"
+              >Master Your Emotions: A Practical Guide to Overcome Negativity
+              and Better Manage Your Feelings (Mastery Series Book 1)</span
+            >
+            by Thibaut Meurisse
+          </li>
+        </ul>
+        <p><b>Reading now 📖</b></p>
+        <ul>
+          <li>
+            <span class="line"
+              >Life Is Short And So Is This Book: Brief Thoughts On Making The
+              Most Of Your Life</span
+            >
+            by Peter Atkins
+          </li>
+        </ul>
+        <p><b>Paused ⏸</b></p>
+        <ul>
+          <li>
+            <span class="line"
+              >THINK STRAIGHT: Change Your Thoughts, Change Your Life</span
+            >
+            by Darius Foroux
+          </li>
+          <li>
+            <span class="line"
+              >80/20 Your Life! How to Get More Done with Less Effort and Change
+              Your Life in the Process!</span
+            >
+            by Damon Zahariades
+          </li>
+          <li>
+            <span class="line">The Design of Everyday Things</span> by Donald
+            Norman
+          </li>
+        </ul>
+        <p><b>To go 📚**</b></p>
+        <ul>
+          <li>
+            <span class="line">55 Questions To Ask Yourself</span>
+            by Manoj Chenthamarakshan
+          </li>
 
+          <li><span class="line">Real Life</span> by Brandon Taylor</li>
+
+          <li>
+            <span class="line"
+              >The Monk Who Sold His Ferrari: The 7 Stages of
+              Self-Awakening</span
+            >
+            by Robin Sharma
+          </li>
+
+          <li>
+            <span class="line"
+              >Do It Today: Overcome Procrastination, Improve Productivity, and
+              Achieve More</span
+            >
+            by Darius Foroux
+          </li>
+          <li>
+            <span class="line"
+              >Declutter Your Mind: How to Stop Worrying, Relieve Anxiety, and
+              Eliminate Negative Thinking</span
+            >
+            by S.J. Scott
+          </li>
+          <li>
+            <span class="line">The Adventures of Huckleberry Finn</span> Novel
+            by Mark Twain
+          </li>
+          <li><span class="line">1984</span> by George Orwell</li>
+          <li>
+            <span class="line">Scientology: The Fundamentals of Thought</span>
+            by L. Ron Hubbard
+          </li>
+        </ul>
+        <p class="no-space font-size">* The list is in the order I've read.</p>
+        <p class="font-size">
+          ** I like this way of list order (lazy enough to sort in alphabetical
+          order).
+        </p>
+
+        <hr
+          style="
+            height: 1px;
+            border: none;
+            color: #333;
+            background-color: #333;
+          " />
+
+        <button
+          type="button"
+          class="btn btn-link"
+          style="
+            float: right;
+            padding: 0% 0% 1% 0%;
+            margin: 0%;
+            text-decoration: none;
+          "
+          onclick="TopScrollFunction()">
+          Navigate to the top &uarr;
+        </button>
+      </div>
+    </div>
+  </body>
 </html>
