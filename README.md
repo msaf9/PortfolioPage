@@ -60,7 +60,7 @@ cd msaf9.github.io
 >
 > Heroku [URL](https://msaf-portfolio.herokuapp.com/)\*
 
-    * - Out of service.
+    * Out of service
 
 ## License
 
