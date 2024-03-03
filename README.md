@@ -4,7 +4,7 @@
 
 Portfolio website.
 
-<h2>Table of content</h2>
+<h2>Table of contents</h2>
 
 - [Introduction](#introduction)
 - [Technologies](#technologies)
